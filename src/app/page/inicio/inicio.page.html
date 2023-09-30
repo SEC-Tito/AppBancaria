@@ -1,0 +1,70 @@
+<ion-content>
+  <div class="wrap-content" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <h1>MY BANK ACCOUNT</h1>
+
+    <ion-label class="wc-person">
+      <ion-icon name="person-circle" class="icon-with-shadow"></ion-icon>
+    </ion-label>
+    <h2> Lorem name</h2>
+
+    <div class="wc-desc">
+      <ion-icon name="location-sharp" style="color: #85e8e6;"></ion-icon>
+      <ion-label style="color: white;"> LoremIdol </ion-label>
+    </div>
+  </div>
+
+  <ion-segment class="colored-segment" value="custom">
+    <ion-segment-button value="custom">
+      <ion-label>Dolor</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="segment">
+      <ion-label>Lorem ipsum</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="buttons">
+      <ion-label>Amet</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <ion-card class="blur-card">
+    <ion-card-header>
+      <ion-card-subtitle>Lorem ipsum</ion-card-subtitle>
+      <ion-card-title>0000 0000 0000 0000</ion-card-title>
+      <div class="card-icon">Card</div>
+    </ion-card-header>
+    <ion-card-content>
+      <div class="dolor-name">
+        Dolor Name
+        <span class="date">05/20</span>
+      </div>
+      <div class="dolor-name amet">amet</div>
+      <div class="date">Ipsum dolot</div>
+    </ion-card-content>
+  </ion-card>
+
+  <div class="blur-card">
+    <ion-card>
+      <ion-list>
+        <ion-item>
+          <ion-label>Lorem ipsun</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+  
+        <ion-item>
+          <ion-label>Dolor sit</ion-label>
+          <ion-input placeholder="Enter company name"></ion-input>
+        </ion-item>
+  
+        <ion-item>
+          <ion-label>Iipsum dolor dolor</ion-label>
+          <ion-input value="121 S Pinckney St #300"></ion-input>
+        </ion-item>
+  
+        <ion-item>
+          <ion-label>sit amet</ion-label>
+          <ion-input value="Madison" [readonly]="true"></ion-input>
+        </ion-item>
+      </ion-list>
+    </ion-card>
+  </div>
+
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "AppBancaria",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

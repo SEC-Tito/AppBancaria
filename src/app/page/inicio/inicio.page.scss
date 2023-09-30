@@ -1,0 +1,157 @@
+ion-content {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente */
+  justify-content: center; /* Centra verticalmente */
+  margin-top: 2rem;
+  background-color: red;
+}
+
+ion-segment-button {
+  --indicator-color: #2a3247;
+}
+
+/* Material Design styles */
+ion-segment-button.md {
+  --color: #2a3247;
+  --color-checked: #86f1f1;
+  --indicator-height: 4px;
+}
+
+/* iOS styles */
+ion-segment-button.ios {
+  --color: #d4d9e3;
+  --color-checked: #fff;
+  --border-radius: 20px;
+}
+
+ion-card {
+  --background: #242c3f;
+  --color:  #FFFFFF;
+}
+
+ion-card-title {
+  --color: #52ffe4;
+}
+
+ion-card-subtitle {
+  --color: #FFFFFF;
+}
+
+/* iOS places the subtitle above the title */
+ion-card-header.ios {
+  display: flex;
+  flex-flow: column-reverse;
+}
+.transparent-segment {
+  background-color: transparent;
+  border: none;
+}
+.colored-segment {
+  background-color: transparent;
+  border: none;
+}
+
+.colored-segment .segment-button {
+  position: relative;
+}
+
+.colored-segment .segment-button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #2a3247; /* Color de fondo de la parte inferior */
+}
+.wc-person {
+  position: relative;
+}
+
+.wc-person::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 50%;
+  background-color: #fafef9; /* Color del difuminado */
+  filter: blur(5px); /* Ajusta el valor del desenfoque según sea necesario */
+  z-index: -1;
+}
+
+.wc-person ion-icon {
+  color: #2e354c; /* Color del icono azul */
+  font-size: 70px; /* Tamaño del icono en píxeles */
+ 
+}
+.wc-desc{
+  color: #85e8e6;
+}
+.mail-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px; /* Tamaño del icono de la carta celeste */
+  color: #85e8e6; /* Color de la carta celeste */
+}
+.card-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px; /* Ancho del rectángulo */
+  height: 20px; /* Altura del rectángulo */
+  background-color: #85e8e6; /* Color del rectángulo */
+  color: white; /* Color del texto */
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px; /* Tamaño de fuente del texto */
+  border-radius: 4px;
+}
+
+.dolor-name {
+  color: #85e8e6; /* Color celeste */
+}
+
+.date {
+  margin :100px;
+}
+.blur-card {
+  background-color:#222a3d(255, 0, 0);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.card-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px; /* Ancho del rectángulo */
+  height: 20px; /* Altura del rectángulo */
+  background-color: #85e8e6; /* Color del rectángulo */
+  color: white; /* Color del texto */
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px; /* Tamaño de fuente del texto */
+  border-radius: 4px;
+}
+
+.dolor-name {
+  color:#85e8e6; /* Color azul */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date {
+  color: white; /* Color blanco */
+  margin-top: 5px; /* Espacio superior */
+}
+
+.amet {
+  text-align: right;
+}
